@@ -1,4 +1,7 @@
 /* gradient-color  */
+body{
+    font-family: "Poppins", sans-serif !important;
+}
 .blue-gradient{
     background-color: #FFDEE9;
     background-image: linear-gradient(90deg, #FFDEE9 0%, #B5FFFC 100%);
@@ -15,13 +18,14 @@ background-color: #ef3c78 !important;
 .color-pink{
     color: #ef3c78;
 }
+
 .border-left{
     border: solid 2px #ef3c78;
     border-radius: 20px;
     box-shadow: 3px 4px #ef3c78;
 }
 .border-mine{
-    border: solid 2px transparent;
+    border: solid 1.5px #ef3c78;
     border-radius: 100% !important;
 }
 .border-mine:hover{
@@ -30,9 +34,31 @@ background-color: #ef3c78 !important;
    transform: scale(1.3);
 
 }
+.inset-border{
+    
+    border: transparent;
+    border-radius: 20px;
+    box-shadow:  inset 4px 4px 8px rgb(189 200 213),
+    inset -4px -4px 8px rgb(255 255 255);
+    transition: box-shadow 0.3s;
+}
+.inset-border:hover{
+    outline: none;
+    border: transparent;
+    border-radius: 20px;
+    box-shadow:  inset 4px 4px 8px rgb(255 255 255), 
+    inset -4px -4px 8px rgb(189 200 213);
+    transition: box-shadow 0.3s;
+}
+.inset-border:focus{
+    outline: none !important;
+
+}
+
 .bg-1{
     background-color: #FBDA61;
     background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+
 }
 .bg-2{
     background-color: #FF9A8B;
