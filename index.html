@@ -21,22 +21,22 @@
         <!-- left side  -->
         <section class="col-md-4 col-11 border-left d-flex flex-column gap-2 py-3">
             <!-- title -->
-            <div class="p-2 color-pink"><label for="title" >Title</label><input type="text" class="w-100 inset-border py-2 px-3" id="title"></div>
+            <div class="p-2 color-pink"><label for="title" class="fw-medium" >Title</label><input type="text" class="w-100 inset-border py-2 px-3" id="title"></div>
             <!-- descrip  -->
-            <div class="p-2 color-pink"><label for="Description" >Description</label><textarea name="description" id="Description" class=" inset-border w-100 height-manual px-3 py-2"></textarea></div>
+            <div class="p-2 color-pink"><label for="Description" class="fw-medium">Description</label><textarea name="description" id="Description" class=" inset-border w-100 height-manual px-3 py-2"></textarea></div>
             <!-- bg color  -->
              <div class="row container gap-1 d-flex align-items-center justify-content-left ps-3">
-                <button class="col-2 p-4 bg-1 border-mine "></button>
-                <button class="col-2 p-4 border-mine bg-2 "></button>
-                <button class="col-2 p-4 border-mine bg-3 "></button>
-                <button class="col-2 p-4 border-mine bg-4 "></button>
-                <button class="col-2 p-4 border-mine bg-5 "></button>
+                <button class="col-2 p-4 bg-1 border-mine " value="bg-1" name="option-bg"></button>
+                <button class="col-2 p-4 border-mine bg-2 " value="bg-2" name="option-bg"></button>
+                <button class="col-2 p-4 border-mine bg-3 " value="bg-3" name="option-bg"></button>
+                <button class="col-2 p-4 border-mine bg-4 " value="bg-4" name="option-bg"></button>
+                <button class="col-2 p-4 border-mine bg-5 " value="bg-5" name="option-bg"></button>
              </div>
             <!-- button  -->
-            <div class="container"><button type="button" class="btn bg-pink text-light">Submit</button></div>
+            <div class="container"><button type="button" class="btn bg-pink text-light" id="submit">Submit</button></div>
         </section>
         <!-- right side  -->
-        <section class="col-md-7 col-11 border-left p-5 bg-5"><p class="text-light">Hi</p></section>
+        <section class="col-md-7 col-11 border-left p-5 bg-5" id="right-section"></section>
     </section>
 </section>
     <script src="app.js"></script>
