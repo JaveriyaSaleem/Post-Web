@@ -18,7 +18,9 @@ background-color: #ef3c78 !important;
 .color-pink{
     color: #ef3c78;
 }
-
+.my-border{
+    border: solid 2px #ef3c78;
+}
 .border-left{
     border: solid 2px #ef3c78;
     border-radius: 20px;
